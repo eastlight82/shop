@@ -42,12 +42,14 @@ function App(){
         <div className="row">
           {shoes.map((a,i) => {
             return(
-            <div className="col-md-4">
-            <img src={shoes[i].img} width="80%" />
-            <h4>{shoes[i].title}</h4>
-            <p>{shoes[i].content}</p>
-          </div>)
-          })}
+            <Card shoes={shoes[i]}/>)
+          //   <div className="col-md-4">
+          //   <img src={shoes[i].img} width="80%" />
+          //   <h4>{shoes[i].title}</h4>
+          //   <p>{shoes[i].content}</p>
+          // </div>
+            })
+          }
         </div>
       </div>
 
@@ -73,7 +75,6 @@ function App(){
     <Link to="/">홈 </Link>
     <Link to="/detail">상세페이지</Link>
 
-      
     </div>
 
   )
