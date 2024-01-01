@@ -21,7 +21,7 @@ let YellowBtn = styled.button`
 `;
 
 function App(){
-  let [shoes, setShoes]=useState(data)
+  let [shoes, setShoes]=useState(data) 
 
   return (
     <div>
