@@ -38,20 +38,18 @@ function App(){
       </Navbar>
 
       <div className='main-bg' />
+
       <div className="container">
         <div className="row">
           {shoes.map((a,i) => {
             return(
-            <Card shoes={shoes[i]}/>)
-          //   <div className="col-md-4">
-          //   <img src={shoes[i].img} width="80%" />
-          //   <h4>{shoes[i].title}</h4>
-          //   <p>{shoes[i].content}</p>
-          // </div>
+            <Card shoes={shoes[i]}/>
+            )
             })
           }
         </div>
       </div>
+      
 
       <div className="container">
         <div className="row">
