@@ -38,7 +38,7 @@ function App(){
       </Navbar>
 
       <div className='main-bg' />
-
+      <p>1번 커밋</p>
       <div className="container">
         <div className="row">
           {shoes.map((a,i) => {
